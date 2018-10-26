@@ -1,0 +1,31 @@
+1.0.9
+	Fixed value
+
+1.0.8
+	Made percent chance of no drops configurable
+
+1.0.7
+	Added 1.13 support
+
+1.0.6
+	Fixed percentages to support any number configuration
+
+1.0.5
+	Fixed cross-world wells issue.
+
+1.0.4
+	Fixed error
+
+1.0.3
+	Added underscore support
+
+1.0.2
+	Fixed delay
+	Fixed multiple items glitch
+
+1.0.1
+	Fixed NPE
+	Added tabs
+
+1.0.0
+	initpost
