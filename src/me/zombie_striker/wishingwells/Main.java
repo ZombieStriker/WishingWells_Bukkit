@@ -302,8 +302,24 @@ public class Main extends JavaPlugin implements Listener {
 				im.setLore(l);
 				item.setItemMeta(im);
 			}
-			if (p.startsWith("durability"))
+			if (p.startsWith("durability")) {
 				item.addEnchantment(Enchantment.DURABILITY,
+						Integer.parseInt(p.split(":")[1]));
+		}
+			if (p.startsWith("sharpness")) {
+				item.addEnchantment(Enchantment.SHARPNESS,
+						Integer.parseInt(p.split(":")[1]));
+		}
+			if (p.startsWith("fireaspect")) {
+				item.addEnchantment(Enchantment.FIREASPECT,
+						Integer.parseInt(p.split(":")[1]));
+		}
+			if (p.startsWith("knockback")) {
+				item.addEnchantment(Enchantment.KNOCKBACK,
+						Integer.parseInt(p.split(":")[1]));
+		}
+			if (p.startsWith("mobloot")) {
+				item.addEnchantment(Enchantment.MOBLOOT,
 						Integer.parseInt(p.split(":")[1]));
 		}
 		return item;
